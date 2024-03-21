@@ -9,9 +9,7 @@ const incValue = (event) => {
 };
 
 const decValue = (event) => {
-  if (counterValue > 0) {
-    value.innerText = --counterValue;
-  }
+  value.innerText = --counterValue;
 };
 
 incButton.addEventListener("click", incValue);
